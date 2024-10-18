@@ -1,4 +1,5 @@
 import { initMercadoPago, Wallet } from '@mercadopago/sdk-react'
+import { useState } from 'react'
 function Coffee() {
     const [preferendeId, setPreferenceId] = useState(null)
     initMercadoPago('APP_USR-f71afc05-bb69-41b9-b2de-d3033d093af4', { locale: 'es-AR' })
